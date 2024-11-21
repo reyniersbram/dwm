@@ -21,6 +21,9 @@ cd dwm
 sudo make install
 ```
 
+For certain parts to work, scripts from my 
+[dotfiles](https://github.com/reyniersbram/dotfiles) might be necesarry.
+
 ## Syncing with the original dwm branch
 
 Set up the local git configuration to have the official dwm repository as 
