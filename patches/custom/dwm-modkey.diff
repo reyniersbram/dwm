@@ -1,0 +1,12 @@
+# Change the MODKEY to Mod4Mask (Super key)
+--- config.def.h	2024-11-19 09:58:40.975388650 +0100
++++ config.h	2024-11-20 09:14:39.400787720 +0100
+@@ -45,7 +45,7 @@
+ };
+ 
+ /* key definitions */
+-#define MODKEY Mod1Mask
++#define MODKEY Mod4Mask
+ #define TAGKEYS(KEY,TAG) \
+ 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
+ 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
