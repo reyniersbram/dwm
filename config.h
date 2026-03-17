@@ -52,6 +52,12 @@ static const int refreshrate = 120;  /* refresh rate (per second) for client mov
  */
 ResourcePref resources[] = {
     { "font",   STRING,  &fonts[0] },
+    { "color.normal.foreground", STRING, &colors[SchemeNorm][0] },
+    { "color.normal.background", STRING, &colors[SchemeNorm][1] },
+    { "color.normal.border", STRING, &colors[SchemeNorm][2] },
+    { "color.selected.foreground", STRING, &colors[SchemeSel][0] },
+    { "color.selected.background", STRING, &colors[SchemeSel][1] },
+    { "color.selected.border", STRING, &colors[SchemeSel][2] },
 };
 
 static const Layout layouts[] = {
